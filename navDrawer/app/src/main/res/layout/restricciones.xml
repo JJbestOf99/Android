@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_confinamiento3"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="80dp"
+        android:background="#28BBDF"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Mas información"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_restricciones" />
+
+    <TextView
+        android:id="@+id/tv_confinamiento2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:background="#28BBDF"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Mas información"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_restricciones" />
+
+    <TextView
+        android:id="@+id/tv_murcia"
+        android:layout_width="207dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="40dp"
+        android:background="#AA000000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:paddingRight="60dp"
+        android:text="MURCIA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_confinamiento"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="108dp"
+        android:background="#28BBDF"
+        android:text="Confinamiento"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_tq"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="236dp"
+        android:background="#28BBDF"
+        android:text="Toque de queda"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_reuniones"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="324dp"
+        android:background="#28BBDF"
+        android:text="Reuniones"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_restricciones"
+        android:layout_width="203dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="272dp"
+        android:background="#AA000000"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:text="Normativa"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="292dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="144dp"
+        android:text="@string/confinamiento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.252"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="308dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="272dp"
+        android:autoText="false"
+        android:text="@string/toque_queda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="360dp"
+        android:text="@string/reuniones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="108dp"
+        android:background="#28BBDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/confinamiento" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="236dp"
+        android:background="#28BBDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reloj" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="324dp"
+        android:background="#28BBDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reunion" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/consejeria" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
